@@ -15,8 +15,8 @@ window.SITE = {
   phone: "+91 97876 31543",
   whatsapp: "919787631543",       // country code + number, digits only
   office: {
-    en: "Main Road, Lalpettai, Kattumannarkoil Taluk, Cuddalore District, Tamil Nadu",
-    ta: "மெயின் ரோடு, லால்பேட்டை, காட்டுமன்னார்கோயில் வட்டம், கடலூர் மாவட்டம், தமிழ்நாடு"
+    en: "J.H. Nagar, Lalpettai, Kattumannarkoil Taluk, Cuddalore District, Tamil Nadu",
+    ta: "ஜே.எச். நகர், லால்பேட்டை, காட்டுமன்னார்கோயில் வட்டம், கடலூர் மாவட்டம், தமிழ்நாடு"
   }
 };
 
