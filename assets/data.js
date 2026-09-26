@@ -2,7 +2,7 @@
  * ------------------------------------------------------------------
  *  SITE SETTINGS & LISTINGS — edit this file to update the website.
  * ------------------------------------------------------------------
- *  • Replace the phone / WhatsApp / email below with your real details.
+ *  • Replace the phone / WhatsApp number below with your real details.
  *  • Add, remove or edit properties in LISTINGS. Every text field has
  *    an English (en) and Tamil (ta) version.
  *  • area is in cents for land; for houses/shops, also give builtUp in sq.ft.
@@ -14,7 +14,6 @@ window.SITE = {
   name: { en: "Ghouse Real Estates", ta: "கௌஸ் ரியல் எஸ்டேட்ஸ்" },
   phone: "+91 97876 31543",
   whatsapp: "919787631543",       // country code + number, digits only
-  email: "info@example.com",      // TODO: replace with the real email
   office: {
     en: "Main Road, Lalpettai, Kattumannarkoil Taluk, Cuddalore District, Tamil Nadu",
     ta: "மெயின் ரோடு, லால்பேட்டை, காட்டுமன்னார்கோயில் வட்டம், கடலூர் மாவட்டம், தமிழ்நாடு"

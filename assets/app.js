@@ -338,7 +338,6 @@
     $("#sellBtn").href = wa(t("wa.hello") + "\n" + t("wa.sell"));
     $("#waFloat").href = wa(t("wa.hello"));
     var ph = $("#phoneLink"); ph.textContent = "📞 " + SITE.phone; ph.href = "tel:" + SITE.phone.replace(/\s/g, "");
-    var em = $("#emailLink"); em.textContent = "✉️ " + SITE.email; em.href = "mailto:" + SITE.email;
   }
 
   /* ---------------- events ---------------- */
