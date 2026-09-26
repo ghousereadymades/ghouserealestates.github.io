@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ghouse Real Estates · Lalpettai & Kattumannarkoil</title>
+  <meta name="description" content="Plots, farm land, houses and shop sites in and around Lalpettai and Kattumannarkoil, Cuddalore District. லால்பேட்டை, காட்டுமன்னார்கோயில் சுற்றுவட்டார மனைகள், நிலங்கள், வீடுகள்.">
+  <meta name="theme-color" content="#1f4d3a">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Mukta+Malar:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#listings" data-i18n="skip">Skip to properties</a>
+
+  <header class="top">
+    <a class="brand" href="#">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--paddy)"/>
+        <path d="M8 26 L20 13 L32 26" fill="none" stroke="var(--sun)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M6 31 Q13 27 20 31 T34 31" fill="none" stroke="#9fd4c4" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <span data-i18n="brand">Ghouse Real Estates</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#listings" data-i18n="nav.props">Properties</a>
+      <a href="#area" data-i18n="nav.area">Area map</a>
+      <a href="#tools" data-i18n="nav.tools">Land calculator</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language / மொழி">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="ta" aria-pressed="false">தமிழ்</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Lalpettai · Kattumannarkoil · Veeranam</p>
+        <h1 data-i18n="hero.title">Land between the lake and the temple town.</h1>
+        <p class="lede" data-i18n="hero.lede">Verified house plots, paddy fields, homes and shop sites around Lalpettai — from people who know every street and every channel.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#listings" data-i18n="hero.cta1">See properties</a>
+          <a class="btn btn-ghost" href="#sell" data-i18n="hero.cta2">Sell your land</a>
+        </div>
+        <ul class="trust">
+          <li><strong data-count="listings">0</strong><span data-i18n="trust.listings">properties listed</span></li>
+          <li><strong data-count="places">0</strong><span data-i18n="trust.villages">villages covered</span></li>
+          <li><strong>100%</strong><span data-i18n="trust.docs">documents checked</span></li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 400 420" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#ffd9a0"/>
+              <stop offset="1" stop-color="#f6efe3"/>
+            </linearGradient>
+            <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#6fb7a8"/>
+              <stop offset="1" stop-color="#2f7d6f"/>
+            </linearGradient>
+          </defs>
+          <rect width="400" height="420" fill="url(#sky)"/>
+          <circle cx="300" cy="120" r="46" fill="#f2a33a" opacity=".9"/>
+          <!-- temple gopuram -->
+          <g transform="translate(60 88)" fill="#c2553a">
+            <rect x="0" y="120" width="90" height="40"/>
+            <rect x="8" y="94" width="74" height="26"/>
+            <rect x="16" y="70" width="58" height="24"/>
+            <rect x="24" y="48" width="42" height="22"/>
+            <rect x="32" y="30" width="26" height="18"/>
+            <path d="M28 30 Q45 6 62 30Z"/>
+            <rect x="36" y="130" width="18" height="30" fill="#8e3a26"/>
+          </g>
+          <!-- minaret -->
+          <g transform="translate(200 120)" fill="#1f4d3a">
+            <rect x="0" y="40" width="18" height="128"/>
+            <rect x="-4" y="36" width="26" height="8"/>
+            <rect x="3" y="14" width="12" height="22"/>
+            <path d="M3 14 Q9 -6 15 14Z"/>
+          </g>
+          <!-- palms -->
+          <g stroke="#1f4d3a" stroke-width="4" fill="none" stroke-linecap="round">
+            <path d="M330 290 Q322 230 340 180"/>
+            <path d="M340 180 q-30 -4 -44 16 M340 180 q26 -12 44 4 M340 180 q-8 -26 -30 -30 M340 180 q10 -24 32 -26"/>
+            <path d="M270 300 Q268 250 282 216"/>
+            <path d="M282 216 q-24 -2 -34 14 M282 216 q20 -10 34 2 M282 216 q-4 -20 -22 -24"/>
+          </g>
+          <!-- lake -->
+          <path d="M0 280 Q100 262 200 282 T400 276 V420 H0Z" fill="url(#lake)"/>
+          <g stroke="#bfe6dc" stroke-width="2" stroke-linecap="round" opacity=".7">
+            <path d="M40 318 h40 M140 340 h60 M260 312 h50 M90 372 h36 M300 368 h54"/>
+          </g>
+          <!-- paddy rows -->
+          <g stroke="#7fae4a" stroke-width="3" stroke-linecap="round">
+            <path d="M0 404 L40 386 M30 410 L70 390 M60 416 L100 394 M300 410 L340 392 M330 416 L370 396 M360 420 L400 400"/>
+          </g>
+        </svg>
+        <div class="kolam"></div>
+      </div>
+    </section>
+
+    <!-- LISTINGS -->
+    <section id="listings" class="section">
+      <div class="section-head">
+        <h2 data-i18n="list.title">Properties for sale</h2>
+        <p data-i18n="list.sub">Tap a place on the map or use the filters.</p>
+      </div>
+
+      <form class="filters" id="filters" onsubmit="return false">
+        <div class="chips" role="group" aria-label="Property type" id="typeChips"></div>
+        <label class="field">
+          <span data-i18n="filter.place">Place</span>
+          <select id="placeSelect"></select>
+        </label>
+        <label class="field">
+          <span data-i18n="filter.budget">Max budget</span>
+          <select id="budgetSelect">
+            <option value="">—</option>
+            <option value="500000">₹5 L</option>
+            <option value="1500000">₹15 L</option>
+            <option value="3000000">₹30 L</option>
+            <option value="5000000">₹50 L</option>
+          </select>
+        </label>
+        <label class="field">
+          <span data-i18n="filter.sort">Sort</span>
+          <select id="sortSelect">
+            <option value="featured" data-i18n="sort.featured">Featured</option>
+            <option value="priceAsc" data-i18n="sort.priceAsc">Price: low to high</option>
+            <option value="priceDesc" data-i18n="sort.priceDesc">Price: high to low</option>
+            <option value="near" data-i18n="sort.near">Nearest to Lalpettai</option>
+          </select>
+        </label>
+      </form>
+
+      <p class="result-count" id="resultCount" aria-live="polite"></p>
+      <div class="grid" id="grid"></div>
+      <p class="empty" id="empty" hidden data-i18n="list.empty">Nothing matches yet — tell us what you need and we'll find it.</p>
+      <p class="disclaimer" data-i18n="list.disclaimer">Prices are indicative. Visit and verify documents before any payment.</p>
+    </section>
+
+    <!-- AREA MAP -->
+    <section id="area" class="section section-alt">
+      <div class="section-head">
+        <h2 data-i18n="area.title">Know the neighbourhood</h2>
+        <p data-i18n="area.sub">A simple sketch of the places we cover (not to scale). Tap a place to see what's available there.</p>
+      </div>
+      <div class="area-wrap">
+        <svg id="areaMap" class="area-map" viewBox="0 0 100 100" role="img" aria-labelledby="areaMapTitle">
+          <title id="areaMapTitle">Sketch map of Lalpettai and nearby villages</title>
+        </svg>
+        <div class="area-side" id="areaSide"></div>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="section why">
+      <div class="section-head">
+        <h2 data-i18n="why.title">How we work</h2>
+      </div>
+      <ol class="steps">
+        <li><span class="step-n">1</span><h3 data-i18n="why.1t">Documents first</h3><p data-i18n="why.1p">Patta, chitta, adangal, EC and parent documents checked before a property is listed.</p></li>
+        <li><span class="step-n">2</span><h3 data-i18n="why.2t">Walk the land together</h3><p data-i18n="why.2p">We take you to the site, show boundaries, road access and water source.</p></li>
+        <li><span class="step-n">3</span><h3 data-i18n="why.3t">Fair local price</h3><p data-i18n="why.3p">Guideline value and recent sales shared openly — no hidden margins.</p></li>
+        <li><span class="step-n">4</span><h3 data-i18n="why.4t">Registration support</h3><p data-i18n="why.4p">Help with the Kattumannarkoil sub-registrar office, loans and patta transfer.</p></li>
+      </ol>
+    </section>
+
+    <!-- LAND CALCULATOR -->
+    <section id="tools" class="section section-alt">
+      <div class="section-head">
+        <h2 data-i18n="tools.title">Land measurement calculator</h2>
+        <p data-i18n="tools.sub">Cents, acres, grounds, square feet — convert instantly.</p>
+      </div>
+      <div class="calc">
+        <div class="calc-in">
+          <label class="field">
+            <span data-i18n="tools.value">Value</span>
+            <input id="calcValue" type="number" inputmode="decimal" min="0" step="any" value="5">
+          </label>
+          <label class="field">
+            <span data-i18n="tools.unit">Unit</span>
+            <select id="calcUnit"></select>
+          </label>
+          <label class="field">
+            <span data-i18n="tools.rate">Rate per cent (₹, optional)</span>
+            <input id="calcRate" type="number" inputmode="decimal" min="0" step="any" placeholder="130000">
+          </label>
+        </div>
+        <ul class="calc-out" id="calcOut"></ul>
+        <p class="calc-total" id="calcTotal" hidden></p>
+      </div>
+    </section>
+
+    <!-- SELL -->
+    <section id="sell" class="section sell">
+      <div class="sell-card">
+        <h2 data-i18n="sell.title">Have land to sell?</h2>
+        <p data-i18n="sell.p">List with us free. We verify, photograph and bring genuine local and NRI buyers.</p>
+        <a class="btn btn-sun" id="sellBtn" href="#" target="_blank" rel="noopener" data-i18n="sell.cta">Message us on WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2 data-i18n="contact.title">Talk to us</h2>
+        <p data-i18n="contact.sub">Send an enquiry — it opens WhatsApp with your message ready.</p>
+      </div>
+      <div class="contact">
+        <form id="enquiry" class="enquiry">
+          <label class="field"><span data-i18n="form.name">Your name</span><input name="name" required autocomplete="name"></label>
+          <label class="field"><span data-i18n="form.phone">Phone</span><input name="phone" type="tel" required autocomplete="tel" inputmode="tel"></label>
+          <label class="field"><span data-i18n="form.want">I am looking to</span>
+            <select name="want">
+              <option value="buy" data-i18n="form.buy">Buy</option>
+              <option value="sell" data-i18n="form.sell">Sell</option>
+              <option value="rent" data-i18n="form.rent">Rent / Lease</option>
+            </select>
+          </label>
+          <label class="field"><span data-i18n="form.prop">Property (optional)</span><select name="prop" id="propSelect"></select></label>
+          <label class="field field-wide"><span data-i18n="form.msg">Message</span><textarea name="msg" rows="3"></textarea></label>
+          <button class="btn btn-primary" type="submit" data-i18n="form.send">Send on WhatsApp</button>
+        </form>
+        <aside class="contact-info">
+          <h3 data-i18n="contact.office">Office</h3>
+          <p id="officeAddr"></p>
+          <p><a id="phoneLink" href="#"></a></p>
+          <p><a id="emailLink" href="#"></a></p>
+          <p class="hours" data-i18n="contact.hours">Call or WhatsApp any time · Site visits by appointment</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="kolam-strip" aria-hidden="true"></div>
+    <p>© <span id="year"></span> <span data-i18n="brand">Ghouse Real Estates</span> · <span data-i18n="foot.tag">Lalpettai, Kattumannarkoil Taluk, Cuddalore District</span></p>
+  </footer>
+
+  <a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.6 14.6 0 0 0 5.6 5c2.1.9 2.9 1 4 .8a3.4 3.4 0 0 0 2.2-1.6 2.8 2.8 0 0 0 .2-1.6c-.1-.1-.3-.2-.6-.4z"/></svg>
+  </a>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
