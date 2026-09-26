@@ -14,7 +14,7 @@ step; GitHub Pages serves it directly.
 
 ## Updating the site
 Everything you need to edit is in **`assets/data.js`**:
-1. Put your real phone, WhatsApp number and email in `SITE` (currently placeholders).
+1. Phone, WhatsApp number and email are in `SITE` (email is still a placeholder).
 2. Add / edit / remove properties in `LISTINGS` (English + Tamil text for each).
 3. Add new villages to `PLACES` if needed.
 

@@ -12,8 +12,8 @@
 
 window.SITE = {
   name: { en: "Ghouse Real Estates", ta: "கௌஸ் ரியல் எஸ்டேட்ஸ்" },
-  phone: "+91 00000 00000",      // TODO: replace with the real number
-  whatsapp: "910000000000",       // TODO: country code + number, digits only
+  phone: "+91 97876 31543",
+  whatsapp: "919787631543",       // country code + number, digits only
   email: "info@example.com",      // TODO: replace with the real email
   office: {
     en: "Main Road, Lalpettai, Kattumannarkoil Taluk, Cuddalore District, Tamil Nadu",
